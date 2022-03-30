@@ -18,7 +18,7 @@ create view emp_age as select age from emp;
 select * from emp_age;
 select salary from emp order by salary asc;
 select salary from emp order by salary desc;
-select ename from emp where(salary=salary) group by salary;
+SELECT salary " employee salary", COUNT(*) "salary" FROM emp GROUP BY salary;
 
 
 
